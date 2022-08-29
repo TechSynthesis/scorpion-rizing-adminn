@@ -59,21 +59,21 @@ const SettingsIndex = () => {
       />
       <SettingsCard
         heading={"The Team"}
-        description={"Manage users of your Medusa Store"}
+        description={"Manage users of your Kirana Store"}
         icon={<UsersIcon />}
         to={`/a/settings/team`}
       />
       <SettingsCard
         heading={"Personal Information"}
-        description={"Mange your Medusa profile"}
+        description={"Mange your Kirana profile"}
         icon={<HappyIcon />}
         to={`/a/settings/personal-information`}
       />
       <SettingsCard
-        heading={"hello@medusajs.com"}
+        heading={"hello@jasonrodrigues.com"}
         description={"Can’t find the answers you’re looking for?"}
         icon={<MailIcon />}
-        externalLink={"mailto: hello@medusajs.com"}
+        externalLink={"mailto: hello@jasonrodrigues.com"}
       />
       <SettingsCard
         heading={"Tax Settings"}

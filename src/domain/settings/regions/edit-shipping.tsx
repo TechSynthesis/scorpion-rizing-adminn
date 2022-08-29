@@ -262,7 +262,7 @@ const EditShipping = ({ shippingOption, region, onDone, onClick }) => {
                 <div className="mt-xlarge">
                   <p className="inter-base-semibold">Danger Zone</p>
                   <p className="inter-base-regular text-grey-50 mb-base">
-                    This will permanently delete this option from your Medusa
+                    This will permanently delete this option from your Kirana
                     Store
                   </p>
                   <button

@@ -15,13 +15,13 @@ export const Default = Template.bind({})
 Default.args = {
   label: "Code",
   required: true,
-  placeholder: "MEDUSA15",
+  placeholder: "KIRANA15",
 }
 
 export const HasValue = Template.bind({})
 HasValue.args = {
   label: "Code",
   required: true,
-  placeholder: "MEDUSA15",
+  placeholder: "KIRANA15",
   value: "SUMMER2014",
 }

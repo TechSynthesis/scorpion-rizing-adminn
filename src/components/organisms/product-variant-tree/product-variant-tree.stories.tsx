@@ -1,4 +1,4 @@
-import { Product } from "@medusajs/medusa"
+import { Product } from "@medusajs/Kirana"
 import { ComponentMeta, ComponentStory } from "@storybook/react"
 import React from "react"
 import ProductVariantTree from "."
@@ -26,7 +26,7 @@ const testProduct: Pick<Product, "title" | "id" | "thumbnail"> & {
   }[]
 } = {
   id: "prod_01FY6FS3VB39G5GPB75S7RYQW6",
-  title: "Medusa Sweatshirt",
+  title: "Kirana Sweatshirt",
   thumbnail:
     "https://medusa-public-images.s3.eu-west-1.amazonaws.com/sweatshirt-vintage-front.png",
   variants: [

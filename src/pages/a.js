@@ -22,7 +22,7 @@ const IndexPage = () => {
   useHotkeys("g + p", () => navigate("/a/products"))
   return (
     <Layout>
-      <SEO title="Medusa" />
+      <SEO title="Kirana" />
       <Router basepath="a" className="h-full">
         <PrivateRoute path="oauth/:app_name" component={Oauth} />
         <PrivateRoute path="products/*" component={Products} />

@@ -68,7 +68,7 @@ const StockAndInventory = () => {
               />
               <IconTooltip
                 content={
-                  "When checked Medusa will regulate the inventory when orders and returns are made."
+                  "When checked Kirana will regulate the inventory when orders and returns are made."
                 }
               />
             </div>

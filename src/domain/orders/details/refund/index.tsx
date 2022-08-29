@@ -1,4 +1,4 @@
-import { useAdminRefundPayment } from "medusa-react"
+import { useAdminRefundPayment } from "Kirana-react"
 import React, { useMemo, useState } from "react"
 import { Controller, useForm } from "react-hook-form"
 import Button from "../../../../components/fundamentals/button"
@@ -71,7 +71,7 @@ const RefundMenu = ({ order, onDismiss }) => {
                 <div className="flex flex-col">
                   <span className="inter-small-semibold">Attention!</span>
                   One or more of your payments is a system payment. Be aware,
-                  that captures and refunds are not handled by Medusa for such
+                  that captures and refunds are not handled by Kirana for such
                   payments.
                 </div>
               </div>

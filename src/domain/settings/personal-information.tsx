@@ -62,7 +62,7 @@ const PersonalInformation = () => {
       <TwoSplitPane>
         <BodyCard
           title="Personal Information"
-          subtitle="Manage your Medusa profile"
+          subtitle="Manage your Kirana profile"
           events={events}
           className={"h-auto max-h-full"}
         >

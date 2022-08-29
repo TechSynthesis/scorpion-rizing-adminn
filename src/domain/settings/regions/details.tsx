@@ -307,7 +307,7 @@ const RegionDetails = ({ id, onDelete, handleSelect }) => {
       {showDanger && (
         <DeletePrompt
           handleClose={() => setShowDanger(!showDanger)}
-          text="Are you sure you want to delete this region from your Medusa Store?"
+          text="Are you sure you want to delete this region from your Kirana Store?"
           heading="Delete region"
           onDelete={handleDelete}
           successText="Successfully deleted region"

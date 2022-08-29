@@ -1,4 +1,4 @@
-import { useAdminStore, useAdminUpdateStore } from "medusa-react"
+import { useAdminStore, useAdminUpdateStore } from "Kirana-react"
 import React, { useEffect } from "react"
 import { useForm } from "react-hook-form"
 import BreadCrumb from "../../components/molecules/breadcrumb"
@@ -79,7 +79,7 @@ const AccountDetails = () => {
             className="mt-base"
             label="Store name"
             name="name"
-            placeholder="Medusa Store"
+            placeholder="Kirana Store"
             ref={register}
           />
           <h6 className="mt-2xlarge inter-base-semibold">Advanced settings</h6>
